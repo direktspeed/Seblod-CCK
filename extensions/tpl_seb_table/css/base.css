@@ -1,0 +1,12 @@
+/**
+* @version 			SEBLOD 3.x Core
+* @package			SEBLOD (App Builder & CCK) // SEBLOD nano (Form Builder)
+* @url				http://www.seblod.com
+* @editor			Octopoos - www.octopoos.com
+* @copyright		Copyright (C) 2013 SEBLOD. All Rights Reserved.
+**/
+
+table.category.zebra{width:100%;}
+table.category.zebra th{text-align:center;}
+td.center{text-align:center;}
+td.nowrap{white-space: nowrap;}

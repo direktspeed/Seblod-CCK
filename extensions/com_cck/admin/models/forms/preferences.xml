@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="preferences">
+		<fieldset name="preferences" label="COM_CCK_PREFERENCES_FIELDSET_MAIN">
+			<field name="style" type="folderlist" directory="/administrator/components/com_cck/assets/styles" hide_none="1" hide_default="1" default=""
+				   label="COM_CCK_PREFERENCES_STYLE" description="COM_CCK_PREFERENCES_STYLE_DESC" class="inputbox" />
+		</fieldset>
+		
+		<fieldset name="preferences_component" label="COM_CCK_PREFERENCES_FIELDSET_COMPONENT">
+			<field name="types_splash_screen" type="list" default="0" label="COM_CCK_PREFERENCES_NEW_CONTENT_TYPE" description="COM_CCK_PREFERENCES_NEW_CONTENT_TYPE_DESC" class="inputbox">
+				<option value="1">COM_CCK_PREFERENCES_OPTION_DEFAULT</option>
+				<option value="0">COM_CCK_PREFERENCES_OPTION_MODAL_BOX</option>
+				<option value="2">COM_CCK_PREFERENCES_OPTION_TOOLTIP</option>
+			</field>
+			<field name="fields_splash_screen" type="list" default="1" label="COM_CCK_PREFERENCES_NEW_FIELD" description="COM_CCK_PREFERENCES_NEW_FIELD_DESC" class="inputbox">
+				<option value="1">COM_CCK_PREFERENCES_OPTION_DEFAULT</option>
+				<option value="2">COM_CCK_PREFERENCES_OPTION_TOOLTIP</option>
+			</field>
+			<field name="searchs_splash_screen" type="list" default="0" label="COM_CCK_PREFERENCES_NEW_SEARCH_TYPE" description="COM_CCK_PREFERENCES_NEW_SEARCH_TYPE_DESC" class="inputbox">
+				<option value="1">COM_CCK_PREFERENCES_OPTION_DEFAULT</option>
+				<option value="0">COM_CCK_PREFERENCES_OPTION_MODAL_BOX</option>
+				<option value="2">COM_CCK_PREFERENCES_OPTION_TOOLTIP</option>
+			</field>
+			<field name="templates_splash_screen" type="list" default="1" label="COM_CCK_PREFERENCES_NEW_TEMPLATE" description="COM_CCK_PREFERENCES_NEW_TEMPLATE_DESC" class="inputbox">
+				<option value="1">COM_CCK_PREFERENCES_OPTION_DEFAULT</option>
+				<option value="2">COM_CCK_PREFERENCES_OPTION_TOOLTIP</option>
+			</field>
+			<field name="sites_splash_screen" type="list" default="2" label="COM_CCK_PREFERENCES_NEW_SITE" description="COM_CCK_PREFERENCES_NEW_SITE_DESC" class="inputbox">
+				<option value="1">COM_CCK_PREFERENCES_OPTION_DEFAULT</option>
+				<option value="2">COM_CCK_PREFERENCES_OPTION_TOOLTIP</option>
+			</field>
+		</fieldset>
+		<fieldset name="preferences_integration" label="COM_CCK_PREFERENCES_FIELDSET_INTEGRATION">
+			<field name="modules_splash_screen" type="list" default="2" label="COM_CCK_PREFERENCES_NEW_MODULE" description="COM_CCK_PREFERENCES_NEW_MODULE_DESC" class="inputbox">
+				<option value="1">COM_CCK_PREFERENCES_OPTION_DEFAULT</option>
+				<option value="2">COM_CCK_PREFERENCES_OPTION_TOOLTIP</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>
